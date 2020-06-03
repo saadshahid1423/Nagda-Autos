@@ -1,0 +1,83 @@
+.one{
+    /* position: absolute;
+    top: 20px;
+    left: 350px; */
+    text-align: center;
+    margin-left: 150px;
+    font-size: 30px;
+    color: white;
+}
+.card{
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px 3px #795548;
+}
+.text{
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 500px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    color: #795548;
+    border-color: #795548;
+}
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    color: #795548;
+    text-shadow: 2px 2px 4px black;
+}
+/* .attach{
+    display: flex;
+} */
+.footer{
+    margin-top: 460px;
+    margin-left: 0px;
+    background-color: #795548;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+.btn-primary{
+    background-color: #795548 !important;
+}
+.dropdown-menu{
+    background-color: #795548 !important;
+}
+.dropdown-item:hover{
+    background-color: #795548 !important;
+    color: white !important;
+}
+@media only screen and (max-width: 1000px){
+    .footer{
+        margin-top: 900px;
+    }
+}
+@media only screen and (max-width: 751px){
+    .footer{
+        margin-top: 1700px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .footer{
+        margin-top: 1700px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .slider,.d-block{
+        width: 450px;
+        height: 500px !important;
+    }
+}   
+@media only screen and (max-width: 464px){
+    .slider,.d-block{
+        width: 400px;
+        height: 450px !important;
+    }
+}      
+@media only screen and (max-width: 420px){
+    .slider,.d-block{
+        width: 360px;
+        height: 400px !important;
+    }
+}     
